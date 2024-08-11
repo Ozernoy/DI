@@ -23,11 +23,20 @@ family = {}
 while True:
     
     name = input('Write the name of the person. If you want to quit, type "quit"')
-    if name == quit:
-        quit()
+    if name == 'quit':
+        break
     
     age = input('Write the age of the person. If you want to quit, type "quit"')
-    if age == quit:
-        quit()
+    if age == 'quit':
+        break
 
-    family = family[]
+    family[name] = int(age)
+
+price = 0
+for name, age in family.items():
+    if 3 < age <= 12:
+        price += 10
+    elif age > 12:
+        price += 15
+
+print(f'Total coast for the movie {price}')
