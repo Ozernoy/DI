@@ -48,7 +48,7 @@ class Circle:
     def __add__(self, other):
         if isinstance(other, Circle): # Check if other object is also a Circle instance
             return Circle(radius=self.radius + other.radius)
-        return NotImplemented # Safe way not to raise error if other is not Circle
+        return NotImplemented # Safe way to try not to raise error if other is not Circle. (But it still will end with TypeError)
 
     def __eq__(self, other):
         if isinstance(other, Circle):
