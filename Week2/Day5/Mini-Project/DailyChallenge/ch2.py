@@ -8,15 +8,14 @@ import time
 
 def measure_load_time(url: str) -> float:
     """Measure the time it takes for a webpage to load completely."""
-    start_time = time.time()  # Record the start time
-    requests.get(url)  # Send the HTTP GET request
-    end_time = time.time()  # Record the end time
+    start_time = time.time()  
+    requests.get(url)  
+    end_time = time.time()  
 
     load_time = end_time - start_time
 
     return load_time
 
-# Test the function with different websites
 sites = [
     "https://www.google.com",
     "https://www.ynetnews.com",
