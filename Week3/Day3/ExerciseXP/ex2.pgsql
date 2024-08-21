@@ -91,14 +91,25 @@ Find out how many rentals are still outstanding (ie. have not been returned to t
 */
 
 SELECT COUNT(*) FROM rental
-WHERE return_date = NULL; --all rentals have been returned
+WHERE return_date IS NULL;
 
 
 /*
 Find the 30 most expensive movies which are outstanding (ie. have not been returned to the store yet)
 */
 
---No such movies?
+
+
+SELECT title FROM rental
+LEFT JOIN inventory ON rental.inventory_id = inventory.inventory_id
+LEFT JOIN film on inventory.film_id = film.film_id
+WHERE return_date IS NULL
+ORDER BY replacement_cost DESC
+LIMIT 30;
+/*
+WHERE return_date IS NULL
+ORDER BY replacement_cost DESC
+LIMIT 30; */
 
 /*
 Your friend is at the store, and decides to rent a movie. He knows he wants to see 4 movies, but he can’t remember their names. Can you help him find which movies he wants to rent?
