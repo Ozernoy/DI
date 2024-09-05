@@ -44,7 +44,6 @@ class Utils:
         conn = Utils.get_connection('postgres')
         conn.set_isolation_level(ISOLATION_LEVEL_AUTOCOMMIT)
         cursor = conn.cursor()
-        
         try:
             # Terminate all active connections to the database
             cursor.execute(sql.SQL(
