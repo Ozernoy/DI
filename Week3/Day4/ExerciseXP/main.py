@@ -1,25 +1,29 @@
 # main.py
-from utils import Utils
-from psycopg2 import sql
-from menu_item import Menu_Item
-from menu_editor import Menu_Editor
+from utils import Utils # type: ignore
+from psycopg2 import sql # type: ignore
+from menu_item import Menu_Item # type: ignore
+from menu_editor import Menu_Editor # type: ignore
 
 new_db_name = "w3d4_db"
 
 try:
-    Utils.db_high_level(new_db_name, 'create') # We need some additional non-obvious logic to create and drop databas
+    Utils.db_high_level(
+        new_db_name, "create"
+    )  # We need some additional non-obvious logic to create and drop databas
     conn = Utils.get_connection(new_db_name)
-    conn.autocommit = True # Part of that non-obvious logic
+    conn.autocommit = True  # Part of that non-obvious logic
     cursor = conn.cursor()
 
     # Create the Menu_Items table if it does not exist
-    cursor.execute(sql.SQL("""
+    cursor.execute(
+        sql.SQL("""
         CREATE TABLE IF NOT EXISTS Menu_Items (
-            item_id SERIAL PRIMARY KEY, 
-            item_name VARCHAR(30) NOT NULL, 
+            item_id SERIAL PRIMARY KEY,
+            item_name VARCHAR(30) NOT NULL,
             item_price SMALLINT DEFAULT 0
         )
-    """))
+    """)
+    )
 
     menu_item_instance = Menu_Item(cursor)
     menu_item_instance.add("Cheeseburger", 10)
@@ -44,4 +48,4 @@ except Exception as e:
 
 finally:
     Utils.terminate_connections(new_db_name)
-    Utils.db_high_level(new_db_name, 'delete')
+    Utils.db_high_level(new_db_name, "delete")
