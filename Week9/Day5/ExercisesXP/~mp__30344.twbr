@@ -1,0 +1,1617 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20242.24.0910.0334                               -->
+<workbook original-version='18.1' source-build='2024.2.3 (20242.24.0910.0334)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <MapboxVectorStylesAndLayers />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelExtractV2.true...ObjectModelExtractV2 />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+    <ZoneBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='job_postings' inline='true' name='federated.1bindo20g5dvfc11a8xyr0m3zzia' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='job_postings' name='textscan.1at187x1nc449s17rt6c50fpacj5'>
+            <connection class='textscan' cleaning='yes' compat='no' csvFile='C:/Users/d1411/Документы/Python Projects/DI/Week9/Day5/ExercisesXP/job_postings.csv' dataRefreshTime='' directory='C:/Users/d1411/Документы/Python Projects/DI/Week9/Day5/ExercisesXP' filename='C:/Users/d1411/AppData/Local/Temp/TableauTemp/1a1urtt0ukkctr128b2g416adecm/job_postings.csv.xlsx' interpretationMode='8' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1at187x1nc449s17rt6c50fpacj5' name='job_postings.csv' table='[C:\Users\d1411\Документы\Python Projects\DI\Week9\Day5\ExercisesXP\job_postings#csv]' type='table'>
+          <columns character-set='UTF-8' gridOrigin='A1:Q10001:no:A1:Q10001:1' header='yes' locale='ru_RU' separator=','>
+            <column datatype='integer' name='Job Posting ID' ordinal='0' />
+            <column datatype='date' name='Job Posting Date' ordinal='1' />
+            <column datatype='string' name='Job Title' ordinal='2' />
+            <column datatype='string' name='Job Title Full' ordinal='3' />
+            <column datatype='string' name='Job Title Additional Info' ordinal='4' />
+            <column datatype='string' name='Job Position Type' ordinal='5' />
+            <column datatype='string' name='Job Position Level' ordinal='6' />
+            <column datatype='integer' name='Years of Experience' ordinal='7' />
+            <column datatype='string' name='Job Skills' ordinal='8' />
+            <column datatype='string' name='Job Location' ordinal='9' />
+            <column datatype='integer' name='Minimum Pay' ordinal='10' />
+            <column datatype='integer' name='Maximum Pay' ordinal='11' />
+            <column datatype='string' name='Pay Rate' ordinal='12' />
+            <column datatype='integer' name='Number of Applicants' ordinal='13' />
+            <column datatype='string' name='Company Name' ordinal='14' />
+            <column datatype='string' name='Company Industry' ordinal='15' />
+            <column datatype='string' name='Company Size' ordinal='16' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1at187x1nc449s17rt6c50fpacj5' name='job_postings.csv' table='[C:\Users\d1411\Документы\Python Projects\DI\Week9\Day5\ExercisesXP\job_postings#csv]' type='table'>
+          <columns character-set='UTF-8' gridOrigin='A1:Q10001:no:A1:Q10001:1' header='yes' locale='ru_RU' separator=','>
+            <column datatype='integer' name='Job Posting ID' ordinal='0' />
+            <column datatype='date' name='Job Posting Date' ordinal='1' />
+            <column datatype='string' name='Job Title' ordinal='2' />
+            <column datatype='string' name='Job Title Full' ordinal='3' />
+            <column datatype='string' name='Job Title Additional Info' ordinal='4' />
+            <column datatype='string' name='Job Position Type' ordinal='5' />
+            <column datatype='string' name='Job Position Level' ordinal='6' />
+            <column datatype='integer' name='Years of Experience' ordinal='7' />
+            <column datatype='string' name='Job Skills' ordinal='8' />
+            <column datatype='string' name='Job Location' ordinal='9' />
+            <column datatype='integer' name='Minimum Pay' ordinal='10' />
+            <column datatype='integer' name='Maximum Pay' ordinal='11' />
+            <column datatype='string' name='Pay Rate' ordinal='12' />
+            <column datatype='integer' name='Number of Applicants' ordinal='13' />
+            <column datatype='string' name='Company Name' ordinal='14' />
+            <column datatype='string' name='Company Industry' ordinal='15' />
+            <column datatype='string' name='Company Size' ordinal='16' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[job_postings.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;ru&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;₽&quot;</attribute>
+              <attribute datatype='string' name='decimal-char'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:Q10001:no:A1:Q10001:1&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;ru_RU&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='thousands-char'>&quot; &quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Job Posting ID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Job Posting ID]</local-name>
+            <parent-name>[job_postings.csv]</parent-name>
+            <remote-alias>Job Posting ID</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[job_postings.csv_C17231D56B8242C9893B86E5F21B5C93]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Job Posting Date</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[Job Posting Date]</local-name>
+            <parent-name>[job_postings.csv]</parent-name>
+            <remote-alias>Job Posting Date</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[job_postings.csv_C17231D56B8242C9893B86E5F21B5C93]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Job Title</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Job Title]</local-name>
+            <parent-name>[job_postings.csv]</parent-name>
+            <remote-alias>Job Title</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LRU_RRU' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[job_postings.csv_C17231D56B8242C9893B86E5F21B5C93]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Job Title Full</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Job Title Full]</local-name>
+            <parent-name>[job_postings.csv]</parent-name>
+            <remote-alias>Job Title Full</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LRU_RRU' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[job_postings.csv_C17231D56B8242C9893B86E5F21B5C93]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Job Title Additional Info</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Job Title Additional Info]</local-name>
+            <parent-name>[job_postings.csv]</parent-name>
+            <remote-alias>Job Title Additional Info</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LRU_RRU' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[job_postings.csv_C17231D56B8242C9893B86E5F21B5C93]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Job Position Type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Job Position Type]</local-name>
+            <parent-name>[job_postings.csv]</parent-name>
+            <remote-alias>Job Position Type</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LRU_RRU' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[job_postings.csv_C17231D56B8242C9893B86E5F21B5C93]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Job Position Level</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Job Position Level]</local-name>
+            <parent-name>[job_postings.csv]</parent-name>
+            <remote-alias>Job Position Level</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LRU_RRU' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[job_postings.csv_C17231D56B8242C9893B86E5F21B5C93]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Years of Experience</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Years of Experience]</local-name>
+            <parent-name>[job_postings.csv]</parent-name>
+            <remote-alias>Years of Experience</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[job_postings.csv_C17231D56B8242C9893B86E5F21B5C93]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Job Skills</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Job Skills]</local-name>
+            <parent-name>[job_postings.csv]</parent-name>
+            <remote-alias>Job Skills</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LRU_RRU' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[job_postings.csv_C17231D56B8242C9893B86E5F21B5C93]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Job Location</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Job Location]</local-name>
+            <parent-name>[job_postings.csv]</parent-name>
+            <remote-alias>Job Location</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LRU_RRU' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[job_postings.csv_C17231D56B8242C9893B86E5F21B5C93]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Minimum Pay</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Minimum Pay]</local-name>
+            <parent-name>[job_postings.csv]</parent-name>
+            <remote-alias>Minimum Pay</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[job_postings.csv_C17231D56B8242C9893B86E5F21B5C93]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Maximum Pay</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Maximum Pay]</local-name>
+            <parent-name>[job_postings.csv]</parent-name>
+            <remote-alias>Maximum Pay</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[job_postings.csv_C17231D56B8242C9893B86E5F21B5C93]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pay Rate</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Pay Rate]</local-name>
+            <parent-name>[job_postings.csv]</parent-name>
+            <remote-alias>Pay Rate</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LRU_RRU' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[job_postings.csv_C17231D56B8242C9893B86E5F21B5C93]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Number of Applicants</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Number of Applicants]</local-name>
+            <parent-name>[job_postings.csv]</parent-name>
+            <remote-alias>Number of Applicants</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[job_postings.csv_C17231D56B8242C9893B86E5F21B5C93]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Company Name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Company Name]</local-name>
+            <parent-name>[job_postings.csv]</parent-name>
+            <remote-alias>Company Name</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LRU_RRU' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[job_postings.csv_C17231D56B8242C9893B86E5F21B5C93]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Company Industry</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Company Industry]</local-name>
+            <parent-name>[job_postings.csv]</parent-name>
+            <remote-alias>Company Industry</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LRU_RRU' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[job_postings.csv_C17231D56B8242C9893B86E5F21B5C93]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Company Size</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Company Size]</local-name>
+            <parent-name>[job_postings.csv]</parent-name>
+            <remote-alias>Company Size</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LRU_RRU' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[job_postings.csv_C17231D56B8242C9893B86E5F21B5C93]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Location_code' datatype='string' name='[Calculation_462463390571728896]' role='dimension' semantic-role='[State].[Name]' type='nominal'>
+        <calculation class='tableau' formula='IF CONTAINS([Job Location], &apos;,&apos;) THEN&#13;&#10;    RIGHT([Job Location], 2)&#13;&#10;ELSE&#13;&#10;    NULL&#13;&#10;END' />
+      </column>
+      <column caption='Mean Pay' datatype='real' name='[Calculation_462463390572138497]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='([Maximum Pay] + [Minimum Pay])/2' />
+      </column>
+      <column caption='Employees_num' datatype='real' name='[Calculation_462463390577664002]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='IF CONTAINS([Company Size], &apos;-&apos;) THEN&#13;&#10;    // Calculate mean for ranges&#13;&#10;    (INT(LEFT([Company Size], FIND([Company Size], &apos;-&apos;) - 1)) +&#13;&#10;    INT(MID([Company Size], FIND([Company Size], &apos;-&apos;) + 1, &#13;&#10;    FIND([Company Size], &apos;employees&apos;) - FIND([Company Size], &apos;-&apos;) - 1))) / 2&#13;&#10;ELSEIF CONTAINS([Company Size], &apos;+&apos;) THEN&#13;&#10;    // Handle ranges with &quot;+&quot; as the upper limit&#13;&#10;    INT(LEFT([Company Size], FIND([Company Size], &apos;+&apos;) - 1))&#13;&#10;ELSE&#13;&#10;    // Return NULL for specific values&#13;&#10;    NULL&#13;&#10;END' />
+      </column>
+      <column datatype='string' name='[Company Name]' role='dimension' type='nominal' />
+      <column aggregation='None' caption='Employees_num (bin)' datatype='integer' name='[Employees_num (bin)]' role='dimension' type='ordinal'>
+        <calculation class='bin' decimals='3' formula='[Calculation_462463390577664002]' peg='0' size='1659' />
+      </column>
+      <column datatype='string' name='[Job Location]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column datatype='string' name='[Job Position Level]' role='dimension' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='job_postings.csv' datatype='table' name='[__tableau_internal_object_id__].[job_postings.csv_C17231D56B8242C9893B86E5F21B5C93]' role='measure' type='quantitative' />
+      <column-instance column='[Company Name]' derivation='None' name='[none:Company Name:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Job Position Level]' derivation='None' name='[none:Job Position Level:nk]' pivot='key' type='nominal' />
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='' _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='false' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/d1411/AppData/Local/Temp/TableauTemp/#TableauTemp_1kowv7d13t9wag1ehd59s1xn8j82.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='10/15/2024 11:28:09 AM' username='tableau_internal_user'>
+          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Job Posting ID</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Job Posting ID]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Job Posting ID</remote-alias>
+              <ordinal>0</ordinal>
+              <family>job_postings.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>25114</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[job_postings.csv_C17231D56B8242C9893B86E5F21B5C93]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Job Posting Date</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[Job Posting Date]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Job Posting Date</remote-alias>
+              <ordinal>1</ordinal>
+              <family>job_postings.csv</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>3001</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[job_postings.csv_C17231D56B8242C9893B86E5F21B5C93]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Job Title</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Job Title]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Job Title</remote-alias>
+              <ordinal>2</ordinal>
+              <family>job_postings.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>79</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LRU_RRU' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[job_postings.csv_C17231D56B8242C9893B86E5F21B5C93]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Job Title Full</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Job Title Full]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Job Title Full</remote-alias>
+              <ordinal>3</ordinal>
+              <family>job_postings.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1961</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LRU_RRU' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[job_postings.csv_C17231D56B8242C9893B86E5F21B5C93]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Job Title Additional Info</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Job Title Additional Info]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Job Title Additional Info</remote-alias>
+              <ordinal>4</ordinal>
+              <family>job_postings.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1178</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LRU_RRU' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[job_postings.csv_C17231D56B8242C9893B86E5F21B5C93]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Job Position Type</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Job Position Type]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Job Position Type</remote-alias>
+              <ordinal>5</ordinal>
+              <family>job_postings.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>11</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LRU_RRU' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[job_postings.csv_C17231D56B8242C9893B86E5F21B5C93]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Job Position Level</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Job Position Level]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Job Position Level</remote-alias>
+              <ordinal>6</ordinal>
+              <family>job_postings.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LRU_RRU' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[job_postings.csv_C17231D56B8242C9893B86E5F21B5C93]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Years of Experience</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Years of Experience]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Years of Experience</remote-alias>
+              <ordinal>7</ordinal>
+              <family>job_postings.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>14</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[job_postings.csv_C17231D56B8242C9893B86E5F21B5C93]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Job Skills</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Job Skills]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Job Skills</remote-alias>
+              <ordinal>8</ordinal>
+              <family>job_postings.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4154</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LRU_RRU' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[job_postings.csv_C17231D56B8242C9893B86E5F21B5C93]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Job Location</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Job Location]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Job Location</remote-alias>
+              <ordinal>9</ordinal>
+              <family>job_postings.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1001</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LRU_RRU' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[job_postings.csv_C17231D56B8242C9893B86E5F21B5C93]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Minimum Pay</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Minimum Pay]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Minimum Pay</remote-alias>
+              <ordinal>10</ordinal>
+              <family>job_postings.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>234</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[job_postings.csv_C17231D56B8242C9893B86E5F21B5C93]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Maximum Pay</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Maximum Pay]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Maximum Pay</remote-alias>
+              <ordinal>11</ordinal>
+              <family>job_postings.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>406</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[job_postings.csv_C17231D56B8242C9893B86E5F21B5C93]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Pay Rate</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Pay Rate]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Pay Rate</remote-alias>
+              <ordinal>12</ordinal>
+              <family>job_postings.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LRU_RRU' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[job_postings.csv_C17231D56B8242C9893B86E5F21B5C93]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Number of Applicants</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Number of Applicants]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Number of Applicants</remote-alias>
+              <ordinal>13</ordinal>
+              <family>job_postings.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>178</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[job_postings.csv_C17231D56B8242C9893B86E5F21B5C93]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Company Name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Company Name]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Company Name</remote-alias>
+              <ordinal>14</ordinal>
+              <family>job_postings.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2606</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LRU_RRU' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[job_postings.csv_C17231D56B8242C9893B86E5F21B5C93]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Company Industry</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Company Industry]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Company Industry</remote-alias>
+              <ordinal>15</ordinal>
+              <family>job_postings.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>141</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LRU_RRU' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[job_postings.csv_C17231D56B8242C9893B86E5F21B5C93]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Company Size</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Company Size]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Company Size</remote-alias>
+              <ordinal>16</ordinal>
+              <family>job_postings.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>9</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LRU_RRU' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[job_postings.csv_C17231D56B8242C9893B86E5F21B5C93]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Job Position Level:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;Associate&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Internship&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;Executive&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Entry level&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;Mid-Senior level&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Director&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Company Name:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;Adroit Resources, Inc.&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Mission Recruit&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;Instabase&quot;</bucket>
+            </map>
+            <map to='#9c755f'>
+              <bucket>&quot;UMATR&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Staff Smart, Inc.&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Zemantics Inc.&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Belcan&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;Oakleaf Partnership Limited&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Atlantic Partners Corporation&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;TDA Creative&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+        <semantic-value key='[State].[Name]' value='%null%' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='job_postings.csv' id='job_postings.csv_C17231D56B8242C9893B86E5F21B5C93'>
+            <properties context=''>
+              <relation connection='textscan.1at187x1nc449s17rt6c50fpacj5' name='job_postings.csv' table='[C:\Users\d1411\Документы\Python Projects\DI\Week9\Day5\ExercisesXP\job_postings#csv]' type='table'>
+                <columns character-set='UTF-8' gridOrigin='A1:Q10001:no:A1:Q10001:1' header='yes' locale='ru_RU' separator=','>
+                  <column datatype='integer' name='Job Posting ID' ordinal='0' />
+                  <column datatype='date' name='Job Posting Date' ordinal='1' />
+                  <column datatype='string' name='Job Title' ordinal='2' />
+                  <column datatype='string' name='Job Title Full' ordinal='3' />
+                  <column datatype='string' name='Job Title Additional Info' ordinal='4' />
+                  <column datatype='string' name='Job Position Type' ordinal='5' />
+                  <column datatype='string' name='Job Position Level' ordinal='6' />
+                  <column datatype='integer' name='Years of Experience' ordinal='7' />
+                  <column datatype='string' name='Job Skills' ordinal='8' />
+                  <column datatype='string' name='Job Location' ordinal='9' />
+                  <column datatype='integer' name='Minimum Pay' ordinal='10' />
+                  <column datatype='integer' name='Maximum Pay' ordinal='11' />
+                  <column datatype='string' name='Pay Rate' ordinal='12' />
+                  <column datatype='integer' name='Number of Applicants' ordinal='13' />
+                  <column datatype='string' name='Company Name' ordinal='14' />
+                  <column datatype='string' name='Company Industry' ordinal='15' />
+                  <column datatype='string' name='Company Size' ordinal='16' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <shared-views>
+    <shared-view name='federated.1bindo20g5dvfc11a8xyr0m3zzia'>
+      <datasources>
+        <datasource caption='job_postings' name='federated.1bindo20g5dvfc11a8xyr0m3zzia' />
+      </datasources>
+      <datasource-dependencies datasource='federated.1bindo20g5dvfc11a8xyr0m3zzia'>
+        <column datatype='string' name='[Company Industry]' role='dimension' type='nominal' />
+        <column datatype='date' name='[Job Posting Date]' role='dimension' type='ordinal' />
+        <column-instance column='[Company Industry]' derivation='None' name='[none:Company Industry:nk]' pivot='key' type='nominal' />
+        <column-instance column='[Job Posting Date]' derivation='Year' name='[yr:Job Posting Date:ok]' pivot='key' type='ordinal' />
+      </datasource-dependencies>
+      <filter class='categorical' column='[federated.1bindo20g5dvfc11a8xyr0m3zzia].[none:Company Industry:nk]'>
+        <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='%null%' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;1 school alumni&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;2 school alumni&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;Accounting&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;Airlines/Aviation&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;Apparel &amp; Fashion&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;Architecture &amp; Planning&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;Automotive&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;Aviation &amp; Aerospace&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;Banking&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;Biotechnology&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;Broadcast Media&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;Building Materials&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;Business Supplies &amp; Equipment&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;Capital Markets&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;Chemicals&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;Civil Engineering&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;Commercial Real Estate&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;Computer &amp; Network Security&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;Computer Games&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;Computer Hardware&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;Computer Networking&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;Computer Software&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;Construction&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;Consumer Electronics&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;Consumer Goods&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;Consumer Services&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;Cosmetics&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;Defense &amp; Space&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;Design&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;E-learning&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;Education Management&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;Electrical &amp; Electronic Manufacturing&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;Entertainment&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;Environmental Services&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;Events Services&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;Facilities Services&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;Farming&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;Financial Services&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;Fine Art&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;Food &amp; Beverages&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;Food Production&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;Fundraising&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;Furniture&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;Gambling &amp; Casinos&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;Glass, Ceramics &amp; Concrete&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;Government Administration&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;Government Relations&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;Health, Wellness &amp; Fitness&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;Higher Education&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;Hospital &amp; Health Care&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;Hospitality&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;Human Resources&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;Individual &amp; Family Services&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;Industrial Automation&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;Information Services&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;Information Technology &amp; Services&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;Insurance&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;International Trade &amp; Development&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;Internet&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;Investment Management&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;Law Practice&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;Legal Services&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;Leisure, Travel &amp; Tourism&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;Libraries&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;Logistics &amp; Supply Chain&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;Luxury Goods &amp; Jewelry&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;Machinery&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;Management Consulting&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;Market Research&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;Marketing &amp; Advertising&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;Mechanical Or Industrial Engineering&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;Media Production&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;Medical Device&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;Medical Practice&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;Mental Health Care&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;Military&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;Mining &amp; Metals&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;Motion Pictures &amp; Film&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;Music&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;Nanotechnology&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;Newspapers&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;Non-profit Organization Management&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;Oil &amp; Energy&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;Online Media&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;Outsourcing/Offshoring&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;Packaging &amp; Containers&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;Paper &amp; Forest Products&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;Pharmaceuticals&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;Photography&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;Political Organization&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;Primary/Secondary Education&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;Printing&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;Professional Training &amp; Coaching&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;Program Development&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;Public Relations &amp; Communications&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;Public Safety&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;Publishing&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;Real Estate&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;Renewables &amp; Environment&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;Research&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;Restaurants&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;Retail&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;Security &amp; Investigations&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;Semiconductors&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;Sporting Goods&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;Sports&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;Staffing &amp; Recruiting&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;Telecommunications&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;Textiles&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;Think Tanks&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;Translation &amp; Localization&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;Transportation/Trucking/Railroad&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;Utilities&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;Venture Capital &amp; Private Equity&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;Veterinary&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;Wholesale&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;Wine &amp; Spirits&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;Wireless&quot;' />
+          <groupfilter function='member' level='[none:Company Industry:nk]' member='&quot;Writing &amp; Editing&quot;' />
+        </groupfilter>
+        <target field='[federated.1bindo20g5dvfc11a8xyr0m3zzia].[none:Company Industry:nk]' />
+      </filter>
+      <filter class='categorical' column='[federated.1bindo20g5dvfc11a8xyr0m3zzia].[yr:Job Posting Date:ok]'>
+        <groupfilter function='level-members' level='[yr:Job Posting Date:ok]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+        <target field='[federated.1bindo20g5dvfc11a8xyr0m3zzia].[yr:Job Posting Date:ok]' />
+      </filter>
+    </shared-view>
+  </shared-views>
+  <worksheets>
+    <worksheet name='Job position level by years'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='job_postings' name='federated.1bindo20g5dvfc11a8xyr0m3zzia' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1bindo20g5dvfc11a8xyr0m3zzia'>
+            <column datatype='string' name='[Company Industry]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Job Position Level]' role='dimension' type='nominal' />
+            <column datatype='date' name='[Job Posting Date]' role='dimension' type='ordinal' />
+            <column datatype='integer' name='[Years of Experience]' role='measure' type='quantitative' />
+            <column-instance column='[Years of Experience]' derivation='Avg' name='[avg:Years of Experience:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Company Industry]' derivation='None' name='[none:Company Industry:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Job Position Level]' derivation='None' name='[none:Job Position Level:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Job Posting Date]' derivation='Year' name='[yr:Job Posting Date:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.1bindo20g5dvfc11a8xyr0m3zzia].[none:Job Position Level:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.1bindo20g5dvfc11a8xyr0m3zzia].[avg:Years of Experience:qk]' shelf='rows' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.1bindo20g5dvfc11a8xyr0m3zzia].[yr:Job Posting Date:ok]</column>
+            <column>[federated.1bindo20g5dvfc11a8xyr0m3zzia].[none:Company Industry:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1bindo20g5dvfc11a8xyr0m3zzia].[none:Job Position Level:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1bindo20g5dvfc11a8xyr0m3zzia].[none:Job Position Level:nk]</rows>
+        <cols>[federated.1bindo20g5dvfc11a8xyr0m3zzia].[avg:Years of Experience:qk]</cols>
+      </table>
+      <simple-id uuid='{60764A40-DEA0-4C99-90D1-DE62D7F85CBB}' />
+    </worksheet>
+    <worksheet name='Mean payment by states'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='job_postings' name='federated.1bindo20g5dvfc11a8xyr0m3zzia' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.1bindo20g5dvfc11a8xyr0m3zzia'>
+            <column caption='Location_code' datatype='string' name='[Calculation_462463390571728896]' role='dimension' semantic-role='[State].[Name]' type='nominal'>
+              <calculation class='tableau' formula='IF CONTAINS([Job Location], &apos;,&apos;) THEN&#13;&#10;    RIGHT([Job Location], 2)&#13;&#10;ELSE&#13;&#10;    NULL&#13;&#10;END' />
+            </column>
+            <column caption='Mean Pay' datatype='real' name='[Calculation_462463390572138497]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='([Maximum Pay] + [Minimum Pay])/2' />
+            </column>
+            <column datatype='string' name='[Company Industry]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Job Location]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column datatype='date' name='[Job Posting Date]' role='dimension' type='ordinal' />
+            <column datatype='integer' name='[Maximum Pay]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Minimum Pay]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_462463390571728896]' derivation='None' name='[none:Calculation_462463390571728896:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Company Industry]' derivation='None' name='[none:Company Industry:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_462463390572138497]' derivation='Sum' name='[sum:Calculation_462463390572138497:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Job Posting Date]' derivation='Year' name='[yr:Job Posting Date:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <slices>
+            <column>[federated.1bindo20g5dvfc11a8xyr0m3zzia].[yr:Job Posting Date:ok]</column>
+            <column>[federated.1bindo20g5dvfc11a8xyr0m3zzia].[none:Company Industry:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1bindo20g5dvfc11a8xyr0m3zzia].[Longitude (generated)]' field-type='quantitative' max='-1982514.5657375995' min='-18885006.865489177' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.1bindo20g5dvfc11a8xyr0m3zzia].[Latitude (generated)]' field-type='quantitative' max='8765751.5388766527' min='2312829.3784492402' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1bindo20g5dvfc11a8xyr0m3zzia].[sum:Calculation_462463390572138497:qk]' />
+              <lod column='[federated.1bindo20g5dvfc11a8xyr0m3zzia].[none:Calculation_462463390571728896:nk]' />
+              <geometry column='[federated.1bindo20g5dvfc11a8xyr0m3zzia].[Geometry (generated)]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1bindo20g5dvfc11a8xyr0m3zzia].[Latitude (generated)]</rows>
+        <cols>[federated.1bindo20g5dvfc11a8xyr0m3zzia].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{A8009F22-F8EB-4AD3-9858-73B7D8C52130}' />
+    </worksheet>
+    <worksheet name='Payment by company size'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='job_postings' name='federated.1bindo20g5dvfc11a8xyr0m3zzia' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1bindo20g5dvfc11a8xyr0m3zzia'>
+            <column caption='Mean Pay' datatype='real' name='[Calculation_462463390572138497]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='([Maximum Pay] + [Minimum Pay])/2' />
+            </column>
+            <column caption='Employees_num' datatype='real' name='[Calculation_462463390577664002]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF CONTAINS([Company Size], &apos;-&apos;) THEN&#13;&#10;    // Calculate mean for ranges&#13;&#10;    (INT(LEFT([Company Size], FIND([Company Size], &apos;-&apos;) - 1)) +&#13;&#10;    INT(MID([Company Size], FIND([Company Size], &apos;-&apos;) + 1, &#13;&#10;    FIND([Company Size], &apos;employees&apos;) - FIND([Company Size], &apos;-&apos;) - 1))) / 2&#13;&#10;ELSEIF CONTAINS([Company Size], &apos;+&apos;) THEN&#13;&#10;    // Handle ranges with &quot;+&quot; as the upper limit&#13;&#10;    INT(LEFT([Company Size], FIND([Company Size], &apos;+&apos;) - 1))&#13;&#10;ELSE&#13;&#10;    // Return NULL for specific values&#13;&#10;    NULL&#13;&#10;END' />
+            </column>
+            <column datatype='string' name='[Company Industry]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Company Size]' role='dimension' type='nominal' />
+            <column aggregation='None' caption='Employees_num (bin)' datatype='integer' name='[Employees_num (bin)]' role='dimension' type='ordinal'>
+              <calculation class='bin' decimals='3' formula='[Calculation_462463390577664002]' peg='0' size='1659' />
+            </column>
+            <column datatype='date' name='[Job Posting Date]' role='dimension' type='ordinal' />
+            <column datatype='integer' name='[Maximum Pay]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Minimum Pay]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_462463390572138497]' derivation='Avg' name='[avg:Calculation_462463390572138497:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Company Industry]' derivation='None' name='[none:Company Industry:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Employees_num (bin)]' derivation='None' name='[none:Employees_num (bin):ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Job Posting Date]' derivation='Year' name='[yr:Job Posting Date:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1bindo20g5dvfc11a8xyr0m3zzia].[none:Employees_num (bin):ok]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Employees_num (bin):ok]' />
+              <groupfilter function='member' level='[none:Employees_num (bin):ok]' member='%null%' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1bindo20g5dvfc11a8xyr0m3zzia].[none:Employees_num (bin):ok]</column>
+            <column>[federated.1bindo20g5dvfc11a8xyr0m3zzia].[yr:Job Posting Date:ok]</column>
+            <column>[federated.1bindo20g5dvfc11a8xyr0m3zzia].[none:Company Industry:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1bindo20g5dvfc11a8xyr0m3zzia].[avg:Calculation_462463390572138497:qk]</rows>
+        <cols>[federated.1bindo20g5dvfc11a8xyr0m3zzia].[none:Employees_num (bin):ok]</cols>
+        <show-full-range>
+          <column>[federated.1bindo20g5dvfc11a8xyr0m3zzia].[Employees_num (bin)]</column>
+        </show-full-range>
+      </table>
+      <simple-id uuid='{8AF5A24D-6302-4CD1-B53B-258E503D640E}' />
+    </worksheet>
+    <worksheet name='Payment by job position level'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='job_postings' name='federated.1bindo20g5dvfc11a8xyr0m3zzia' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1bindo20g5dvfc11a8xyr0m3zzia'>
+            <column caption='Mean Pay' datatype='real' name='[Calculation_462463390572138497]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='([Maximum Pay] + [Minimum Pay])/2' />
+            </column>
+            <column datatype='string' name='[Company Industry]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Job Position Level]' role='dimension' type='nominal' />
+            <column datatype='date' name='[Job Posting Date]' role='dimension' type='ordinal' />
+            <column datatype='integer' name='[Maximum Pay]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Minimum Pay]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_462463390572138497]' derivation='Avg' name='[avg:Calculation_462463390572138497:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Company Industry]' derivation='None' name='[none:Company Industry:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Job Position Level]' derivation='None' name='[none:Job Position Level:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Job Posting Date]' derivation='Year' name='[yr:Job Posting Date:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.1bindo20g5dvfc11a8xyr0m3zzia].[none:Job Position Level:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.1bindo20g5dvfc11a8xyr0m3zzia].[avg:Calculation_462463390572138497:qk]' shelf='columns' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.1bindo20g5dvfc11a8xyr0m3zzia].[yr:Job Posting Date:ok]</column>
+            <column>[federated.1bindo20g5dvfc11a8xyr0m3zzia].[none:Company Industry:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1bindo20g5dvfc11a8xyr0m3zzia].[none:Job Position Level:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1bindo20g5dvfc11a8xyr0m3zzia].[avg:Calculation_462463390572138497:qk]</rows>
+        <cols>[federated.1bindo20g5dvfc11a8xyr0m3zzia].[none:Job Position Level:nk]</cols>
+      </table>
+      <simple-id uuid='{425EBF84-6987-4101-8433-907F5A8DB7E5}' />
+    </worksheet>
+    <worksheet name='Payment by years of expirience'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='job_postings' name='federated.1bindo20g5dvfc11a8xyr0m3zzia' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1bindo20g5dvfc11a8xyr0m3zzia'>
+            <column datatype='string' name='[Company Industry]' role='dimension' type='nominal' />
+            <column datatype='date' name='[Job Posting Date]' role='dimension' type='ordinal' />
+            <column datatype='integer' name='[Maximum Pay]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Minimum Pay]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Years of Experience]' role='measure' type='quantitative' />
+            <column-instance column='[Maximum Pay]' derivation='Avg' name='[avg:Maximum Pay:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Minimum Pay]' derivation='Avg' name='[avg:Minimum Pay:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Company Industry]' derivation='None' name='[none:Company Industry:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Years of Experience]' derivation='None' name='[none:Years of Experience:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Job Posting Date]' derivation='Year' name='[yr:Job Posting Date:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <slices>
+            <column>[federated.1bindo20g5dvfc11a8xyr0m3zzia].[yr:Job Posting Date:ok]</column>
+            <column>[federated.1bindo20g5dvfc11a8xyr0m3zzia].[none:Company Industry:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='on' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1bindo20g5dvfc11a8xyr0m3zzia].[avg:Minimum Pay:qk]'>
+            <view>
+              <breakdown value='on' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+                <format attr='mark-labels-show' value='false' />
+                <format attr='mark-color' value='#59a14f' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1bindo20g5dvfc11a8xyr0m3zzia].[avg:Maximum Pay:qk]'>
+            <view>
+              <breakdown value='on' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+                <format attr='mark-labels-show' value='false' />
+                <format attr='mark-color' value='#e15759' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.1bindo20g5dvfc11a8xyr0m3zzia].[avg:Minimum Pay:qk] + [federated.1bindo20g5dvfc11a8xyr0m3zzia].[avg:Maximum Pay:qk])</rows>
+        <cols>[federated.1bindo20g5dvfc11a8xyr0m3zzia].[none:Years of Experience:qk]</cols>
+      </table>
+      <simple-id uuid='{DB785CAC-7B94-407A-85E4-5C179FA3C1BC}' />
+    </worksheet>
+    <worksheet name='Top 10 companies by pay'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='job_postings' name='federated.1bindo20g5dvfc11a8xyr0m3zzia' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1bindo20g5dvfc11a8xyr0m3zzia'>
+            <column caption='Mean Pay' datatype='real' name='[Calculation_462463390572138497]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='([Maximum Pay] + [Minimum Pay])/2' />
+            </column>
+            <column datatype='string' name='[Company Industry]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Company Name]' role='dimension' type='nominal' />
+            <column datatype='date' name='[Job Posting Date]' role='dimension' type='ordinal' />
+            <column datatype='integer' name='[Maximum Pay]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Minimum Pay]' role='measure' type='quantitative' />
+            <column-instance column='[Company Industry]' derivation='None' name='[none:Company Industry:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Company Name]' derivation='None' name='[none:Company Name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_462463390572138497]' derivation='Sum' name='[sum:Calculation_462463390572138497:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Job Posting Date]' derivation='Year' name='[yr:Job Posting Date:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1bindo20g5dvfc11a8xyr0m3zzia].[none:Company Name:nk]'>
+            <groupfilter count='10' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='AVG([Calculation_462463390572138497])' function='order' user:ui-marker='order'>
+                <groupfilter function='level-members' level='[none:Company Name:nk]' user:ui-manual-selection='true' user:ui-manual-selection-all-when-empty='true' user:ui-manual-selection-is-empty='true' user:ui-marker='enumerate' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.1bindo20g5dvfc11a8xyr0m3zzia].[none:Company Name:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.1bindo20g5dvfc11a8xyr0m3zzia].[sum:Calculation_462463390572138497:qk]' shelf='columns' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.1bindo20g5dvfc11a8xyr0m3zzia].[none:Company Name:nk]</column>
+            <column>[federated.1bindo20g5dvfc11a8xyr0m3zzia].[yr:Job Posting Date:ok]</column>
+            <column>[federated.1bindo20g5dvfc11a8xyr0m3zzia].[none:Company Industry:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1bindo20g5dvfc11a8xyr0m3zzia].[none:Company Name:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1bindo20g5dvfc11a8xyr0m3zzia].[sum:Calculation_462463390572138497:qk]</rows>
+        <cols>[federated.1bindo20g5dvfc11a8xyr0m3zzia].[none:Company Name:nk]</cols>
+      </table>
+      <simple-id uuid='{22559B5F-1539-4A40-AF73-6F395913D72F}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <style />
+      <size sizing-mode='automatic' />
+      <datasources>
+        <datasource caption='job_postings' name='federated.1bindo20g5dvfc11a8xyr0m3zzia' />
+      </datasources>
+      <datasource-dependencies datasource='federated.1bindo20g5dvfc11a8xyr0m3zzia'>
+        <column datatype='string' name='[Company Industry]' role='dimension' type='nominal' />
+        <column datatype='date' name='[Job Posting Date]' role='dimension' type='ordinal' />
+        <column-instance column='[Company Industry]' derivation='None' name='[none:Company Industry:nk]' pivot='key' type='nominal' />
+        <column-instance column='[Job Posting Date]' derivation='Year' name='[yr:Job Posting Date:ok]' pivot='key' type='ordinal' />
+      </datasource-dependencies>
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='58197' id='8' param='horz' type-v2='layout-flow' w='99034' x='483' y='869'>
+            <zone h='58197' id='6' type-v2='layout-basic' w='89378' x='483' y='869'>
+              <zone h='29099' id='3' name='Payment by years of expirience' w='44689' x='483' y='869'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='29098' id='10' name='Top 10 companies by pay' w='44689' x='483' y='29968'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='29098' id='12' name='Payment by job position level' w='44689' x='45172' y='29968'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='29099' id='15' name='Payment by company size' w='44689' x='45172' y='869'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+            <zone fixed-size='160' h='58197' id='7' is-fixed='true' param='vert' type-v2='layout-flow' w='9656' x='89861' y='869'>
+              <zone h='31377' id='16' name='Payment by years of expirience' param='[federated.1bindo20g5dvfc11a8xyr0m3zzia].[none:Company Industry:nk]' type-v2='filter' values='database' w='9656' x='89861' y='869'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='18893' id='17' name='Payment by years of expirience' param='[federated.1bindo20g5dvfc11a8xyr0m3zzia].[yr:Job Posting Date:ok]' type-v2='filter' values='database' w='9656' x='89861' y='32246'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='7927' id='9' name='Mean payment by states' pane-specification-id='0' param='[federated.1bindo20g5dvfc11a8xyr0m3zzia].[sum:Calculation_462463390572138497:qk]' type-v2='color' w='9656' x='89861' y='51139'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone h='40065' id='14' name='Job position level by years' w='49517' x='483' y='59066'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='40065' id='5' name='Mean payment by states' w='49517' x='50000' y='59066'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1700' minheight='1700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='19' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98262' id='18' param='vert' type-v2='layout-flow' w='99034' x='483' y='869'>
+                <zone h='31377' id='16' mode='checkdropdown' name='Payment by years of expirience' param='[federated.1bindo20g5dvfc11a8xyr0m3zzia].[none:Company Industry:nk]' type-v2='filter' values='database' w='9656' x='89861' y='869'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='18893' id='17' mode='checkdropdown' name='Payment by years of expirience' param='[federated.1bindo20g5dvfc11a8xyr0m3zzia].[yr:Job Posting Date:ok]' type-v2='filter' values='database' w='9656' x='89861' y='32246'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='225' h='29099' id='3' is-fixed='true' name='Payment by years of expirience' w='44689' x='483' y='869'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='225' h='29099' id='15' is-fixed='true' name='Payment by company size' w='44689' x='45172' y='869'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='225' h='29098' id='10' is-fixed='true' name='Top 10 companies by pay' w='44689' x='483' y='29968'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='225' h='29098' id='12' is-fixed='true' name='Payment by job position level' w='44689' x='45172' y='29968'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='40065' id='14' is-fixed='true' name='Job position level by years' w='49517' x='483' y='59066'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='40065' id='5' is-fixed='true' name='Mean payment by states' w='49517' x='50000' y='59066'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='7927' id='9' name='Mean payment by states' pane-specification-id='0' param='[federated.1bindo20g5dvfc11a8xyr0m3zzia].[sum:Calculation_462463390572138497:qk]' type-v2='color' w='9656' x='89861' y='51139'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{370BD676-6464-4742-A152-CDA2DE7FE84F}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='37'>
+    <window class='worksheet' name='Payment by years of expirience'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{0DC366D2-1AB3-41A2-8D8E-06F24D4E569E}' />
+    </window>
+    <window class='worksheet' name='Mean payment by states'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1bindo20g5dvfc11a8xyr0m3zzia].[sum:Calculation_462463390572138497:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <default-map-tool-selection tool='1' />
+      </viewpoint>
+      <simple-id uuid='{5636539E-FF15-4AAF-AFC4-7CD403AD56F2}' />
+    </window>
+    <window class='worksheet' name='Top 10 companies by pay'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1bindo20g5dvfc11a8xyr0m3zzia].[none:Company Name:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{0EA5FE4E-76F6-4642-A00B-70FD18AF192A}' />
+    </window>
+    <window class='worksheet' name='Payment by job position level'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1bindo20g5dvfc11a8xyr0m3zzia].[none:Job Position Level:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{0419B2A6-A3A6-4AD4-A942-A0A1295D4BC0}' />
+    </window>
+    <window class='worksheet' name='Job position level by years'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1bindo20g5dvfc11a8xyr0m3zzia].[none:Job Position Level:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{1FC01475-8334-4B72-B4A7-901FBD3DAD16}' />
+    </window>
+    <window class='worksheet' name='Payment by company size'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{17BCA3B0-8D2D-441E-9467-55C39AA219E3}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Job position level by years' />
+        <viewpoint name='Mean payment by states'>
+          <zoom type='entire-view' />
+          <default-map-tool-selection tool='1' />
+        </viewpoint>
+        <viewpoint name='Payment by company size'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Payment by job position level'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Payment by years of expirience'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Top 10 companies by pay'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='5' />
+      <simple-id uuid='{15D97C77-252F-4067-A7D1-6030870025A5}' />
+    </window>
+  </windows>
+</workbook>
