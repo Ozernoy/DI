@@ -358,8 +358,8 @@
       <_.fcp.ObjectModelTableType.true...column caption='job_postings.csv' datatype='table' name='[__tableau_internal_object_id__].[job_postings.csv_C17231D56B8242C9893B86E5F21B5C93]' role='measure' type='quantitative' />
       <column-instance column='[Company Name]' derivation='None' name='[none:Company Name:nk]' pivot='key' type='nominal' />
       <column-instance column='[Job Position Level]' derivation='None' name='[none:Job Position Level:nk]' pivot='key' type='nominal' />
-      <extract _.fcp.ObjectModelExtractV2.true...object-id='' _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='false' units='records'>
-        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/d1411/AppData/Local/Temp/TableauTemp/#TableauTemp_1kowv7d13t9wag1ehd59s1xn8j82.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='10/15/2024 11:28:09 AM' username='tableau_internal_user'>
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='' _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/d1411/AppData/Local/Temp/TableauTemp/#TableauTemp_08zurql0ya7c0q1gn219y0qkrtb7.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='10/30/2024 08:04:45 AM' username='tableau_internal_user'>
           <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
           <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
           <metadata-records>
@@ -1429,7 +1429,7 @@
     </dashboard>
   </dashboards>
   <windows source-height='37'>
-    <window class='worksheet' name='Payment by years of expirience'>
+    <window class='worksheet' maximized='true' name='Payment by years of expirience'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -1590,7 +1590,7 @@
       </cards>
       <simple-id uuid='{17BCA3B0-8D2D-441E-9467-55C39AA219E3}' />
     </window>
-    <window class='dashboard' maximized='true' name='Dashboard 1'>
+    <window class='dashboard' name='Dashboard 1'>
       <viewpoints>
         <viewpoint name='Job position level by years' />
         <viewpoint name='Mean payment by states'>
