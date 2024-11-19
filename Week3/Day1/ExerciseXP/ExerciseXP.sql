@@ -1,5 +1,4 @@
-CREATE DATABASE public;
-
+CREATE DATABASE shop;
 
 CREATE TABLE items (
     item_id SERIAL PRIMARY KEY,
@@ -35,7 +34,7 @@ SELECT * FROM customers WHERE last_name = 'Smith';
 
 SELECT * FROM customers WHERE last_name = 'Jones';
 
-SELECT * FROM customers WHERE last_name != 'Jones';
+SELECT * FROM customers WHERE last_name != 'Scott';
 
 
 
